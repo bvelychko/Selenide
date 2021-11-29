@@ -1,5 +1,43 @@
-*.zip
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# Logs and databases #
+######################
 *.log
-*.pdf
-*.xls
-*.md
+*.sql
+*.sqlite
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+.gradle
+.idea
+*.iml
+
+report/
+apps/
+build/
+target/
+
+/screenshots/
+/out
+
+conf/local.properties
+!conf/.gitkeep
+.allure
+!allure-results/.gitkeep
+allure-results
