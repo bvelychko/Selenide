@@ -4,9 +4,6 @@ import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 import java.util.UUID;
 
-import static com.codeborne.selenide.Selenide.open;
-
-
 public class RegistrationPage {
     static String uuid = UUID.randomUUID().toString();
     static String email = uuid + "@gmail.com";

@@ -6,7 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 import registration.page.RegistrationPage;
 
-public class SubmitTest {
+public class RegistrationTest {
     @Before
     public void setDriver() {
         System.setProperty("webdriver.chrome.driver", "C:\\Selenide\\chromedriver.exe");

@@ -56,7 +56,7 @@ public class RegistrationFlowStraightforward {
 //  Log out from the account
         $(By.className("logout")).click();
         sleep(3000);
- }
+    }
 
     public void login() {
         open("http://automationpractice.com/index.php");
@@ -70,5 +70,5 @@ public class RegistrationFlowStraightforward {
         $(By.name("SubmitLogin")).click();
         $(By.className("info-account")).shouldBe(Condition.text("Welcome to your account. Here you can manage all of your personal information and orders."));
         sleep(3000);
-}
     }
+}
