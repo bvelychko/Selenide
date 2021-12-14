@@ -39,7 +39,7 @@ public class RegistrationPage {
 
 
     public static void noEmailErrorTriggering() {
-        open("http://automationpractice.com/index.php?controller=authentication&back=my-account");
+        Selenide.open("http://automationpractice.com/index.php?controller=authentication&back=my-account");
         signInButton.click();
         Selenide.sleep(3000);
         createdButton.click();
