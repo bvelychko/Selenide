@@ -8,8 +8,8 @@ import static com.codeborne.selenide.Selenide.*;
 
 
 public class RegistrationFlowStraightforward {
-    String uuid= UUID.randomUUID().toString();
-    String email = uuid+"@gmail.com";
+    static String uuid= UUID.randomUUID().toString();
+    static String email = uuid+"@gmail.com";
 
     @Test
     public void registration() {
@@ -57,7 +57,7 @@ public class RegistrationFlowStraightforward {
         $(By.className("logout")).click();
         sleep(3000);
     }
-
+    @Test
     public void login() {
         open("http://automationpractice.com/index.php");
         $(By.cssSelector("a[href*=my-account]")).click();
